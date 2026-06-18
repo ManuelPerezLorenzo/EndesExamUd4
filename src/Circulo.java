@@ -1,4 +1,4 @@
-public class Circulo {
+public class Circulo extends Figura{
 
     private double radio;
 
