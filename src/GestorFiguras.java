@@ -2,10 +2,18 @@ import java.util.ArrayList;
 
 public class GestorFiguras {
 
-    public ArrayList<Object> figuras;
+    private ArrayList<Object> figuras;
 
     public GestorFiguras() {
         figuras = new ArrayList<>();
+    }
+
+    public ArrayList<Object> getFiguras() {
+        return figuras;
+    }
+
+    public void setFiguras(ArrayList<Object> figuras) {
+        this.figuras = figuras;
     }
 
     public void agregarFigura(Object f) {
@@ -13,7 +21,6 @@ public class GestorFiguras {
     }
 
     public void mostrarAreas() {
-
         for (Object f : figuras) {
 
             // horrible uso de instanceof
