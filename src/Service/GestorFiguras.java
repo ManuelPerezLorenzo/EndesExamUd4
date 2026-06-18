@@ -1,3 +1,7 @@
+package Service;
+
+import Model.Figura;
+
 import java.util.ArrayList;
 
 public class GestorFiguras {

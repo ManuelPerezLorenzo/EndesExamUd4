@@ -1,3 +1,8 @@
+import Model.Circulo;
+import Model.Rectangulo;
+import Model.Triangulo;
+import Service.GestorFiguras;
+
 public class Main {
 
     public static void main(String[] args) {
